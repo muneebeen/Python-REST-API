@@ -18,7 +18,6 @@ def drink_list(request):
         # return JsonResponse(serializer.data, safe=False)
         return Response(serializer.data)
     # if want to return object then
-
     # return JsonResponse({'drinks': serializer.data}, safe=False)
 
     if request.method == 'POST':
